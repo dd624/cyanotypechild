@@ -1,0 +1,101 @@
+/*
+Theme Name: Good Dawning 2.0
+Version: 1.0
+Description: A child theme of Cyanotype
+Template: cyanotype-wpcom
+*/
+
+@import url("../cyanotype-wpcom/style.css");
+
+body {
+    -webkit-animation: animate_bg 15s;
+    animation: animate_bg 15s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+
+}
+
+
+
+@keyframes animate_bg {
+    0% {background:#3399CC;}
+    10%   {background:#339999;}
+    20%  {background:#339966;}
+    30%  {background:#669933;}
+    40%   {background:#669966;}
+    50% {background: #669999;}
+    60%   {background:#669966;}
+    70% {background:#669933;}
+    80%   {background:#339966;}
+    90%  {background:#339999;}
+    100%  {background:#3399CC;}
+}
+
+@-webkit-keyframes animate_bg {
+    0% {background:#3399CC;}
+    10%   {background:#339999;}
+    20%  {background:#339966;}
+    30%  {background:#669933;}
+    40%   {background:#669966;}
+    50% {background: #669999;}
+    60%   {background:#669966;}
+    70% {background:#669933;}
+    80%   {background:#339966;}
+    90%  {background:#339999;}
+    100%  {background:#3399CC;}
+
+}
+
+
+.site-header {
+	border-bottom: 2px solid currentColor;
+	
+	width: 100%;
+}
+
+.header-image {
+	border-bottom: 2px solid currentColor;
+}
+
+a:hover{
+text-decoration: none;
+}
+
+img.wp-image-58.size-full.size-big{
+margin-left: -25% !important; 
+}
+
+img.wp-image-67.size-full.size-big{
+margin-left: 25% !important;
+}
+
+figure#attachment_133 > figcaption.wp-caption-text{
+margin-left:35% !important;
+}
+
+img.wp-image-133.size-full.size-big{
+    margin-left:25% !important;
+}
+
+img.alignnone.wp-image-74.size-full.size-big{
+margin-left: 25% !important;
+}
+
+.pick{
+    margin-left: -25% !important;
+    margin-top: -15% !important;
+}
+
+body.home{
+    background: url(http://localhost/wordpress/wp-content/uploads/2015/05/ASN2-3.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    -webkit-animation: none;
+    animation: none;
+}
+
+.content-area2{
+background:white;
+}
